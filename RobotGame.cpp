@@ -1,15 +1,3 @@
-/*
- * Class: CMSC140 CRN: 30311
- * Instructor: Sandro Fouche
- * Project<1>
- * Description: Show concepts learned from chapters 1, 2, and 3.
- * Due Date: February 22, 2021
- * I pledge that I have completed the programming assignment independently.
-   I have not copied the code from a student or any source.
-   I have not given my code to any student.
-   Print your Name here: Jason Rahimi
-   */
-
 #include <iostream>
 #include <cmath>
 #include <iomanip>
@@ -37,7 +25,7 @@ int main()
 {
 	cout << "**************** Robot Prototype Scripting ********************" << endl;
 	cout << "\n";
-	cout << "Hello, welcome to Mongtomery College! My name is Nao. May I have your name?" << endl;
+	cout << "Hello, my name is Nao. May I have your name?" << endl;
 	getline(cin,name);
 	cout << "Nice to have you with us today, " << name << "!" << endl;
 	cout << "let me impress you with a small game." << endl;
@@ -68,6 +56,4 @@ int main()
 	cout << showpoint << setprecision(2) << "however, the result of " << numberA << " / " << numberB << " is about " << setprecision(1) << decimal << "." << endl;
 	cout << "\n";
 	cout << "Thank you for testing my program!!" << endl;
-
-
 }
