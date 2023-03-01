@@ -6,14 +6,11 @@ using namespace std;
 
 int main()
 {
-	string country;
 	char choice;
 	double temperature;
 	double distance;
 	double weight;
 
-	cout << "Enter a country name: ";
-	getline(cin, country);
 	cout << "\n";
 	cout << "\n";
 	cout << "Converter Toolkit" << endl;
@@ -54,12 +51,4 @@ int main()
 	default: cout << "Please enter your choice using numbers 1, 2, 3, or 4" << endl;
 	}
 		cout << "\n";
-		cout << country << " sounds fun!" << endl;
-		cout << "\n";
-		cout << "\n";
-		cout << "Thank you for testing my program!!" << endl;
-		cout << "PROGRAMMER: Jason Rahimi" << endl;
-		cout << "CMSC140 Common Project 2" << endl;
-		cout << "Due Date: 3/8/2021" << endl;
-	
 }
